@@ -1,0 +1,28 @@
+{
+  "name": "podcast-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev":   "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx watch --env-file=.env src/server.ts",
+    "dist":        "tsup src",
+    "start:dist":  "npm run dist && --env-file=.env node/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PHSouthier/node-webapi-podcast-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PHSouthier/node-webapi-podcast-manager/issues"
+  },
+  "homepage": "https://github.com/PHSouthier/node-webapi-podcast-manager#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
