@@ -50,13 +50,13 @@ Retorna todos os episódios cadastrados.
 
 ---
 
-### `GET /api/podcasts?podcastName={nome}`
+### `GET /api/podcasts?p={nome}`
 
 Filtra episódios pelo nome do podcast.
 
 **Exemplo:**
 ```
-GET /api/podcasts?podcastName=flow
+GET /api/podcasts?p=flow
 ```
 
 **Resposta:**
